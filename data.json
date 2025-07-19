@@ -1,0 +1,12 @@
+{
+  "events": [
+    {
+      "title": "Mastering Git & GitHub for Team Collaboration",
+      "provider": "TechBridge Academy",
+      "date": "2025-07-26",
+      "type": "Webinar",
+      "desc": "Join our expert-led webinar to learn Git and GitHub workflows used in real-world teams. Perfect for developers, interns, and freshers looking to boost their version control skills. Includes live demo and Q&A.",
+      "status": "approved"
+    }
+  ]
+}
