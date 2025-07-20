@@ -1,21 +1,32 @@
-# backend-hackathon
-# Backend – Client Dashboard for IT Companies
+# Client Dashboard Backend (SuPrathon 2K25 Project)
 
-This backend powers the Admin Panel, Client View, and Event Provider Dashboard for the SuPrathon 2K25 project.
+This is the backend server for the **Client Dashboard for IT Companies** project, developed for SuPrathon 2K25. It handles all event-related operations such as submission, approval, and status tracking by clients, admins, and providers.
 
-**API Base URL**: https://backend-hackathon-dtqd.onrender.com
+## 🔗 Live Backend
 
-### 🛠 Tech Stack
+🌐 [Render Live Link](https://backend-hackathon-dtqd.onrender.com/)  
+_(Shows “Backend is running” when server is active)_
+
+## 📁 Features
+
+- POST new event requests (Clients & Providers)
+- GET all event listings for Admin approval
+- PATCH event status (approve/reject)
+- DELETE all events (Admin cleanup)
+- Auto-expiry logic (on frontend side) to hide past events
+
+## 🛠️ Tech Stack
+
 - Node.js
-- Express
-- JSON-based file storage (data.json)
-- Render (Hosting)
+- Express.js
+- JSON File Storage (data.json)
+- Render (Deployment)
 
-### 📂 Files
-- `server.js` - API routes for events
-- `data.json` - Stores event data
-- `package.json` - Project metadata
+## 📁 Folder Structure
+backend-hackathon/
+├── server.js
+├── data.json
+├── package.json
+├── package-lock.json
+└── README.md
 
----
-
-🔗 [Frontend Repo](https://github.com/your-frontend-repo-link)
